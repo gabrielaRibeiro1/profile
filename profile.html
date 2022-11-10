@@ -4,160 +4,142 @@
     <meta charset="UTF-8">
     <title>Professional Profile</title>
     <link rel="stylesheet" href="stuff.css">
+    <link rel="stylesheet" href="">
 </head>
 <body>
- <main>
+<main>
 
-  <div class="hero">
-    <nav>
-        <h2 class="logo">Portfolio</h2>
-        <ul>
-            <li><a href="#">Home</a> </li>
-            <li><a href="#">Skills</a> </li>
-            <li><a href="#">Languages</a> </li>
-            <li><a href="#">Certification</a> </li>
-            <li><a href="#">Education</a> </li>
-            <li><a href="#">Contact Form</a> </li>
-        </ul>
-    </nav>
+    <div class="hero">
+        <nav>
+            <h2 class="logo">Portfolio</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Languages</a></li>
+                <li><a href="#">Certification</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Contact Form</a></li>
+            </ul>
+        </nav>
 
-      <section class="Home">
-      <div class="main">
-          <img src="assets/pfpipvc.png" alt="Foto de perfil">
-          <div class="home-about">
-              <h2> About me</h2>
-              <h5>random text about myself here.</h5>
-              <p>Gabriela Torres Ribeiro</p>
-          </div>
-       </div>
-      </section>
-
-     <div class="skills">
-         <div class="title">
-             <h2>Skills</h2>
-         </div>
-
-          <div class="box">
-
-            <div class="card">
-                <h2>Soft Skills</h2>
-
-                <div class="softskills">
-                      <ul>
-                          <p>Communication</p>
-                          <p>Openness to criticism</p>
-                          <p>Critical thinking</p>
-                          <p> Creativity</p>
-                      </ul>
+        <section class="Home">
+            <div class="main">
+                <img src="assets/pfpipvc.png" alt="Foto de perfil">
+                <div class="home-about">
+                    <h2> About me</h2>
+                    <h5>random text about myself here.</h5>
+                    <p>Gabriela Torres Ribeiro</p>
+                </div>
             </div>
-          </div>
+        </section>
 
-              <div class="card">
-                  <h2>Hard Skills</h2>
+        <section class="Skills">
+            <div class="skills">
+                <div class="title">
+                    <h2>Skills</h2>
+                </div>
 
-                  <div class="hardskills">
-                      <ul>
-                          <p>Computer Skills</p>
-                          <ul>
-                              Programming Skills
-                              <ul>
-                                  <ul>
-                                      <p>Java</p>
-                                      <p>C</p>
-                                      <p>Python</p>
-                                      <p>SQL</p>
-                                  </ul>
-                              </ul>
-                          </ul>
-                      </ul>
-                  </div>
-              </div>
+                <div class="box">
+
+                    <div class="card">
+                        <h2>Soft Skills</h2>
+
+                        <div class="softskills">
+                            <p>Communication</p>
+                            <p>Openness to criticism</p>
+                            <p>Critical thinking</p>
+                            <p> Creativity</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Hard Skills</h2>
+
+                        <div class="hardskills">
+                            <p>Computer Skills</p>
+                            <p>Programming Skills</p>
+                            <p>Java</p>
+                            <p>C</p>
+                            <p>Python</p>
+                            <p>SQL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
+        <section class="Languages">
+            <div class="lang">
+                <h2>Languages</h2>
+            </div>
+            <div class="list-languages">
+                <img src="assets/portugal.png" alt="Portugues">
+                <img src="assets/english.png" alt="Ingles">
+                <img src="assets/france.png" alt="Frances">
+            </div>
+        </section>
+
+        <section class="Certifications">
+            <div class="cert">
+                <h2>Certifications</h2>
+            </div>
+            <div class="cert-text">
+                <p>Introduction to SQL - Datacamp</p>
+                <p>Como evitar o plágio - Instituto Politécnico de Leiria</p>
+            </div>
+        </section>
+
+        <section class="Education">
+            <div class="edu">
+                <h2>Education</h2>
+            </div>
+            <div class="edu-text">
+                <p>Graduation: IPVC - Computer Engineering (2020-????)</p>
+            </div>
+        </section>
+
+
+        <div>
+            <form>
+                <fieldset>
+                    <legend><h3>Contact Form</h3></legend>
+                    <p>
+                        <label for="name"><strong>Name</strong></label>
+
+                        <input id="name" name="full name" placeholder="Your name.." type="text">
+                    </p>
+                    <p>
+                        <label><strong>Email</strong>
+                            <input name="email" placeholder="Your Email.." type="email">
+                        </label>
+                    </p>
+
+                    <p>
+                        <label><strong>Subject</strong>
+                            <textarea name="subject" placeholder="Reason of the contact.."></textarea>
+                        </label>
+                    </p>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </fieldset>
+            </form>
         </div>
-     </div>
 
-
-      <div>
-          <h2>
-              Languages
-          </h2>
-          <ul>
-              <li>
-                  Portuguese
-              </li>
-              <li>
-                  English
-              </li>
-              <li>
-                  French
-              </li>
-          </ul>
-      </div>
-
-      <div>
-          <h2>
-              Certifications
-          </h2>
-          <p>Introduction to SQL - Datacamp</p>
-          <p>Como evitar o plágio - Instituto Politécnico de Leiria</p>
-      </div>
-
-      <div>
-          <h2>
-              Education
-          </h2>
-          <ul>
-              <li>
-                  <strong>Graduation:</strong> IPVC - Computer Engineering (2020-????)
-              </li>
-          </ul>
-      </div>
-
-      <footer>
-          <div>
-              <form>
-                  <fieldset>
-                      <legend><h3>Contact Form</h3></legend>
-                      <p>
-                          <label for="name"><strong>Name</strong></label>
-
-                          <input id="name" name="full name" placeholder="Your name.." type="text">
-                      </p>
-                      <p>
-                          <label><strong>Email</strong>
-                              <input name="email" placeholder="Your Email.." type="email">
-                          </label>
-                      </p>
-
-                      <p>
-                          <label><strong>Subject</strong>
-                              <textarea name="subject" placeholder="Reason of the contact.."></textarea>
-                          </label>
-                      </p>
-
-                      <input type="submit" value="Submit">
-                      <input type="reset" value="Reset">
-                  </fieldset>
-              </form>
-          </div>
-      </footer>
-
-      <div>
-          <h2>
-              Contacts
-          </h2>
-          <ul>
-              <li>
-                  <strong>Phone Number:</strong> 913714397
-              </li>
-              <li>
-                  <strong>Email:</strong> <a href="mailto:gabrielar@ipvc.pt"> gabrielar@ipvc.pt</a>/ <a
-                      href="mailto:gabrielatr200@gmail.com">gabrielatr200@gmail.com</a>
-              </li>
-          </ul>
-      </div>
-  </div>
- </main>
+        <footer>
+            <section class="Contacts">
+                <div class="contactos">
+                    <p>Contacts</p>
+                </div>
+                <div class="social">
+                    <a href="https://github.com/gabrielaRibeiro1"><img src="assets/github.png" alt="github"></a>
+                    <a href="mailto:gabrielar@ipvc.pt"><img src="assets/email.png" alt="email"></a>
+                    <a href="tel:+351913714297"><img src="assets/phone.png" alt="phone"></a>
+                </div>
+                <p class="end"> Gabriela Ribeiro @ 2022</p>
+            </section>
+        </footer>
+    </div>
+</main>
 </body>
 </html>
