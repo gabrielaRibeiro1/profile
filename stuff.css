@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5 {
 
 /* Skills */
 #skills .card {
-    min-height: 250px;
+    min-height: 270px;
     background-color: rgba(0,0,0,.25);
 }
 
